@@ -4,7 +4,11 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 .Orange-color {
@@ -25,6 +29,7 @@ h1 {
 
 .division {
     width: 50%;
+    padding: 25px;
 
 }
 
@@ -56,4 +61,33 @@ h1 {
     background-image: url("New Project (1).png");
     background-repeat: no-repeat;
     background-position: right;
+}
+
+#ex {
+    padding-left: 40px;
+
+}
+
+.three {
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 18px;
+    box-shadow: 10px 10px 40px;
+    margin: 20px;
+
+}
+
+#bcolor {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+
+#ccolor {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(17, 90, 8), rgb(193, 233, 34));
+    border-image-slice: 1;
+    border-radius: 5px;
 }
