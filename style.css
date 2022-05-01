@@ -1,3 +1,38 @@
-style p{color: blue;
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
 
+h1 {
+    font-size: 60px;
+}
+
+.Orange-color {
+    color: orange;
+}
+
+.divide {
+
+    display: flex;
+    padding-left: 25px;
+}
+
+.division {
+    width: 50%;
+
+}
+
+.division img {
+    width: 100%;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(red orange);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.tani {
+    background-image: linear-gradient(red orange);
 }
