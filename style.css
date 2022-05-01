@@ -15,6 +15,12 @@ h1 {
 
     display: flex;
     padding-left: 25px;
+    padding-bottom: 40px;
+}
+
+.pic {
+    background-image: url("New Project (2).png");
+    background-repeat: no-repeat;
 }
 
 .division {
@@ -28,11 +34,26 @@ h1 {
 
 .button {
     text-decoration: none;
-    background-image: linear-gradient(red orange);
+    background-image: linear-gradient(red, orange);
     padding: 10px 40px;
     border-radius: 5px;
+    color: white;
+    font-weight: 400;
 }
 
-.tani {
-    background-image: linear-gradient(red orange);
+.new-button {
+    text-decoration: none;
+    background-image: linear-gradient(red, orange);
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
+.two {
+    padding-top: 80px;
+}
+
+.back {
+    background-image: url("New Project (1).png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
