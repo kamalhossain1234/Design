@@ -31,7 +31,6 @@ h2 {
 .division {
     width: 50%;
 
-
 }
 
 .division img {
@@ -91,4 +90,9 @@ h2 {
     border-image: linear-gradient(rgb(17, 90, 8), rgb(193, 233, 34));
     border-image-slice: 1;
     border-radius: 5px;
+}
+
+.last {
+    background-image: url("New Project7.png");
+    background-repeat: no-repeat;
 }
